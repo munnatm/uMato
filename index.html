@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>For u Mato</title>
+</head>
+<body>
+    <audio id="bgMusic" loop>
+        <source src="bg.mpeg.mp3" type="audio/mp3">
+    </audio>
+    <main class="flex-center">
+        <div class="video-background">
+            <video autoplay muted loop id="myVideo">
+                <source src="./107257-678130120.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="proposal" class="container">
+            <img src="p1.jpg" alt="Our Picture" class="p-image">
+            <h2>Will you be my Valentine?</h2>
+            <div class="btn-wrapper">
+                <button id="yes-btn">Yes &#128525;</button>
+                <button id="no-btn">No &#128520;</button>
+            </div>
+        </div>
+        <div id="yesPage" class="c hidden">
+            <img src="IMG_20250722_184842.jpg" alt="Mato" class="t-image">
+            <h1 class="yes-msg">I know you say Yes&#128536;</h1>
+            <p>I love you Forever!</p>
+            <div class="hearts">✨💍✨</div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
